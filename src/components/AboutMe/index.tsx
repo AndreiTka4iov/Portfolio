@@ -12,7 +12,11 @@ const AboutMe = () => {
           transitionProps={{ transition: "pop" }}
           p={0}
         >
-          <img src="https://img.hhcdn.ru/photo/763086298.jpeg?t=1740572725&h=IINYCTdJVY3QP4G5hr1cxg" alt="Profile" className={styles.profilePic} />
+          <img
+            src="https://img.hhcdn.ru/photo/763086298.jpeg?t=1740572725&h=IINYCTdJVY3QP4G5hr1cxg"
+            alt="Profile"
+            className={styles.profilePic}
+          />
         </Tooltip>
         <h1>About Me</h1>
       </div>
@@ -86,12 +90,29 @@ const AboutMe = () => {
           </p>
           <ul className={styles.jobDetails}>
             <li>
-              Built a <strong>notification system</strong> for user messages
-              with automated email notifications.
+              Developed and implemented a <strong>notification system</strong>{" "}
+              for user messages, including automated email notifications.
             </li>
             <li>
-              Fixed critical bugs, improving <strong>stability</strong> and{" "}
-              <strong>user experience</strong>.
+              Redesigned the influencers page, optimizing the{" "}
+              <strong>user interface</strong> and data loading performance.
+            </li>
+            <li>
+              Implemented a <strong>counter for influencer</strong> profile
+              views based on subscription plans.
+            </li>
+            <li>
+              Participated in developing a platform integrated with{" "}
+              <strong>Web3 technologies</strong>, including blockchain-based
+              user authentication and digital asset management.
+            </li>
+            <li>
+              Conducted code refactoring to resolve critical bugs in existing
+              systems.
+            </li>
+            <li>
+              <strong>Optimized database queries</strong> for handling large
+              volumes of data.
             </li>
           </ul>
         </div>
@@ -126,7 +147,9 @@ const AboutMe = () => {
 
         <div className={styles.job}>
           <h3 className={styles.jobTitle}>Middle Fullstack Developer</h3>
-          <p className={styles.company}>NIKIFILINI — January 2022 – October 2023</p>
+          <p className={styles.company}>
+            NIKIFILINI — January 2022 – October 2023
+          </p>
           <ul className={styles.jobDetails}>
             <li>
               Enhanced the company's <strong>ERP system</strong> by adding new
