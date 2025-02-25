@@ -12,7 +12,7 @@ const AboutMe = () => {
           transitionProps={{ transition: "pop" }}
           p={0}
         >
-          <img src="/me.HEIC" alt="Profile" className={styles.profilePic} />
+          <img src="https://img.hhcdn.ru/photo/763086298.jpeg?t=1740572725&h=IINYCTdJVY3QP4G5hr1cxg" alt="Profile" className={styles.profilePic} />
         </Tooltip>
         <h1>About Me</h1>
       </div>
@@ -126,7 +126,7 @@ const AboutMe = () => {
 
         <div className={styles.job}>
           <h3 className={styles.jobTitle}>Middle Fullstack Developer</h3>
-          <p className={styles.company}>NIKIFILINI — May 2022 – October 2023</p>
+          <p className={styles.company}>NIKIFILINI — January 2022 – October 2023</p>
           <ul className={styles.jobDetails}>
             <li>
               Enhanced the company's <strong>ERP system</strong> by adding new
