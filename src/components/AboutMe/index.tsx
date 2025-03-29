@@ -86,7 +86,7 @@ const AboutMe = () => {
         <div className={styles.job}>
           <h3 className={styles.jobTitle}>Senior Fullstack Developer</h3>
           <p className={styles.company}>
-            Crossnetics — December 2024 – Present
+            Crossnetics — August 2024 – Present
           </p>
           <ul className={styles.jobDetails}>
             <li>
